@@ -8,9 +8,10 @@ defineProps({
 </script>
 
 <template>
-    <div class="overflow-hidden rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+    <div class="overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-xl">
         <!-- Character Image -->
-        <img :src="character.image" :alt="character.name" class="h-72 w-full object-cover" />
+        <img :src="character.image" :alt="character.name" referrerpolicy="no-referrer" class="h-68 w-full object-cover" />
+        <img :src="character.voice_actor_image" :alt="character.voice_actor" referrerpolicy="no-referrer" class="h-68 w-full object-cover" />
 
         <!-- Content -->
         <div class="p-5">

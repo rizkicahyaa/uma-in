@@ -1,7 +1,7 @@
-<script setup lang="ts">
-import CharacterCard from "./components/CharacterCard.vue";
+<script setup>
+import Characters from "./views/Characters.vue";
 </script>
 
 <template>
-    <CharacterCard />
+    <Characters />
 </template>
