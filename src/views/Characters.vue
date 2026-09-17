@@ -14,7 +14,7 @@ import CharacterCard from "../components/CharacterCard.vue";
             </div>
 
             <!-- Character Grid -->
-            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                 <CharacterCard v-for="character in characters" :key="character.url" :character="character" />
             </div>
         </div>
