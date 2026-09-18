@@ -13,14 +13,14 @@ defineProps({
         <div class="grid grid-cols-2 gap-1 bg-gray-100">
             <!-- Character Image -->
             <div class="relative overflow-hidden">
-                <img :src="character.image" :alt="character.name" referrerpolicy="no-referrer" class="h-68 w-full object-cover" />
+                <img :src="character.image" :alt="character.name" referrerpolicy="no-referrer" class="h-50 w-100 object-cover" />
 
                 <span class="absolute bottom-2 left-2 rounded-md bg-black/60 px-2 py-1 text-xs font-medium text-white backdrop-blur-sm"> Character </span>
             </div>
 
             <!-- Voice Actor Image -->
             <div class="relative overflow-hidden">
-                <img :src="character.voice_actor_image" :alt="character.voice_actor" referrerpolicy="no-referrer" class="h-68 w-full object-cover" />
+                <img :src="character.voice_actor_image" :alt="character.voice_actor" referrerpolicy="no-referrer" class="h-50 w-full object-cover" />
 
                 <span class="absolute bottom-2 left-2 rounded-md bg-black/60 px-2 py-1 text-xs font-medium text-white backdrop-blur-sm"> Voice Actor </span>
             </div>
